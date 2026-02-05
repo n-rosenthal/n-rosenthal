@@ -1,0 +1,29 @@
+# Sobre [schema.org](schema.org)
+[schema.org](https://schema.org/docs/gs.html) (2011. Google, Yandex, Yahoo, Bing) é um *vocabulário de **schemas*** para [marcação semântica](https://en.wikipedia.org/wiki/Semantic_HTML) em páginas da Web. Enquanto HTML busca descrever **como** um conteúdo deve ser *exibido* ou *renderizado*, nem sempre é capaz de descrever **o que é** este conteúdo.
+
+Em [schema.org](https://schema.org/docs/gs.html), um *schema* (esquema) é um **modelo semântico** para descrever algum tipo de dado estruturado. Alguns *dados estruturados* comuns, para os quais existem *schemas*, são `Article`, `BlogPosting`, `Person`, `Product`, `WebSite`. Cada *schema* terá propriedades específicas: em um `Article`, encontramos os campos `headline` e `author`, por exemplo.
+
+[schema.org](https://schema.org/docs/gs.html) é, novamente, um vocabulário (um *dicionário* de nomes para listas de propriedades) de esquemas. Estes esquemas devem ser *expressos* em protocolos para dados. [schema.org](https://schema.org/docs/gs.html) usa, para expressar seus *schemas*, **Microdata** sobre HTML, **RDFa** e **JSON-LD**.
+
+A marcação semântica é uma tentativa de atribuir *sentido* a *dados estruturados*, especialmente para páginas Web.
+
+---
+## um primeiro exemplo
+Uma primeira exploração foi este simples *modelo semântico* para uma postagem em um blog. Nós vamos assumir que o contexto é [schema.org](https://schema.org/docs/gs.html), e que o *tipo* de objeto é uma postagem em um blog, isto é, `BlogPosting`. Note também que um dos campos de um `BlogPosting` é um `Author`, para o qual existe um esquema em [schema.org](https://schema.org/docs/gs.html), o esquema para `Person`.
+
+```JSON
+{	
+	"@context": "https://schema.org",	
+	"@type": "BlogPosting",	
+	"headline": "Schema.org: dados estruturados para a Web",	
+	"author": {	
+		"@type": "Person",	
+		"name": "Nícolas Rosenthal"	
+	},	
+	"datePublished": "2026-02-05"
+}
+```
+
+Este é um documento no formato **JSON-LD** que *respeita* ao vocabulário de [schema.org](https://schema.org/docs/gs.html).
+
+---
