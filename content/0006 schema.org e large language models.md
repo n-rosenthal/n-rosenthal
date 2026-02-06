@@ -1,0 +1,4 @@
+# [schema.org](https://schema.org/) e large language models
+LLMs (https://en.wikipedia.org/wiki/Large_language_model) são capazes de consumir dados estruturados e _marcados semanticamente_ em algum formato que respeite [schema.org](https://schema.org/) com bastante eficiência, além de buscadores capazes de construir _grafos de conhecimento_, que transformam um conjunto de URLs em um grafo de entidades interligadas por marcadores semânticos.
+
+_Crawlers_, sistemas de recomendação, _pipelines_ para processamento de dados, indexadores acadêmicos e outras ferramentas também podem usar [schema.org](https://schema.org/) para melhorar suas funcionalidades.
