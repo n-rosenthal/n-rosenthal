@@ -61,19 +61,6 @@ Esses projetos têm como objetivo consolidar fundamentos de teoria da computaç�
 ---
 
 ### [`general-ia`](https://github.com/n-rosenthal/general-ia)
-Repositório voltado a projetos em Inteligência Artificial em sentido amplo,
-incluindo biologia computacional, processamento de imagens, redes neurais profundas e implementações de conceitos fundamentais em IA, como decodificadores e busca semântica.
+Repositório voltado a projetos em Inteligência Artificial em sentido amplo, incluindo biologia computacional, processamento de imagens, redes neurais profundas e implementações de conceitos fundamentais em IA, como decodificadores e busca semântica.
 
 O foco está na experimentação controlada, organização de código e documentação clara.
-
----
-
-### [`obs-shards`](https://github.com/n-rosenthal/obs-shards), 
-### [`general-automation`](https://github.com/n-rosenthal/general-automation)
-Projetos de automação e integração de sistemas.
-
-O `obs-shards` busca automatizar processos e integrar uma *vault* do
-[Obsidian](https://obsidian.md/) a um banco de dados PostgreSQL e a um back-end
-em **Django/Python**, permitindo análise, versionamento e persistência estruturada de notas e atividades.
-
----
