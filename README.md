@@ -26,41 +26,25 @@ Além do desenvolvimento aplicado, também estudo temas mais teóricos da comput
 
 Minha fluência nas tecnologias abaixo varia, mas estas são as linguagens e ferramentas que venho utilizando para desenvolver meus projetos:
 
-- **Programming:** C, C++, Java, Python, TypeScript / JavaScript
+- **Programming:** C, C++, Java, Python, TypeScript / JavaScript, OCaml, Rust
 - **Back-end:** SQL (PostgreSQL, MySQL), Django, Flask
 - **Front-end:** HTML, CSS, Next.js
 - **Outros:** Git, Docker (básico), Linux, Microsoft Office
 
 ---
 ## `projects`
+### Projetos em Ciência de Dados
+#### Processo de Ciência de Dados
+[#TODO]
 
-### [`L2`](https://github.com/n-rosenthal/L2)
-Implementação da linguagem `L2` em OCaml.  `L2` é uma extensão do Cálculo Lambda simplesmente tipado, incorporando expressões numéricas e construções imperativas.
+#### Classificação de Artigos Científicos a partir de Redes Neurais Baseadas em Grafos
+[#TODO]
 
-O projeto explora conceitos de linguagens de programação, semântica, tipagem
-e interpretação, com foco em clareza formal e implementação correta.
+#### Projetos em Semântica Formal, Linguagens de Programação e Compiladores
+[#TODO]
 
----
-
-### [`sala-de-leitura`](https://github.com/n-rosenthal/sala-de-leitura)
-Sistema completo de gerenciamento de uma sala de leitura, incluindo livros,
-associados e empréstimos.
-
-O back-end é implementado em **Python (Django)**, com modelagem relacional,
-regras de negócio e API REST. O front-end utiliza **TypeScript, Next.js e React**,
-com foco em uma interface simples e funcional.
-
----
-
-### [`naive-compilers`](https://github.com/n-rosenthal/naive-compilers), 
-### [`simple-languages`](https://github.com/n-rosenthal/simple-languages)
-Coleção de implementações de autômatos formais, linguagens de programação simples e compiladores didáticos.
-
-Esses projetos têm como objetivo consolidar fundamentos de teoria da computação, compiladores e design de linguagens, conectando teoria e prática por meio de implementações incrementais.
-
----
-
-### [`general-ia`](https://github.com/n-rosenthal/general-ia)
-Repositório voltado a projetos em Inteligência Artificial em sentido amplo, incluindo biologia computacional, processamento de imagens, redes neurais profundas e implementações de conceitos fundamentais em IA, como decodificadores e busca semântica.
-
-O foco está na experimentação controlada, organização de código e documentação clara.
+### `Emacs` $+$ `Org-Mode`: processamento de linguagem natural, aprendizado de máquina, *graph neural networks*
+Durante os dois últimos anos (2024-2026), Emacs se tornou o meu editor de documentos preferido, substituindo as tentivas anteriores com Obsidian, Notion etc. As vantagens de Emacs instrumentalizado com Org-Mode são inúmeras e são facilmente descobertas pela Web. O projecto [[pkm...]] descreve uma série de sub-projetos desenvolvidos e agrupados durante os últimos anos:
+- um pequeno *parser* para documentos Org (que permite a elaboração de uma Árvore de Sintaxe Concreta a partir de um documento Org, bem como escrever novos elementos e documentos inteiros considerando a AST definida).
+- integração de uma base de documentos Org com um banco de dados vetorial para implementação de busca semântica, *retrieval-augmented generation (RAG), bem como outros estudos na intersecção entre Processamento de Linguagem Natural e Aprendizado de Máquina.
+- *media logging* ou *registering* automatizado, extração, armazenamento e geração aumentada de documentos a partir de mídias não-textuais;
